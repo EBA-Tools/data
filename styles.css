@@ -104,3 +104,6 @@ a:active {
   color: lime;
   text-decoration: bold;
 }
+.err {
+  font-size: 50px;
+}
