@@ -56,6 +56,10 @@ button:hover {
   background-color: #FF0000;
   width: 50%;
 }
+.buttonYellow50 {
+  background-color: #FFFF00;
+  width: 50%;
+}
 .buttonGreen50:hover {
   background-color: #00AA00;
 }
@@ -64,6 +68,10 @@ button:hover {
 }
 .buttonRed50:hover {
   background-color: #AA0000;
+}
+.buttonYellow50:hover {
+  background-color: #AAAA00;
+  width: 50%;
 }
 ::selection {
   background: #FF0000;
