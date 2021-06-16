@@ -3,9 +3,7 @@ function countdown() {
   if (parseInt(i.innerHTML)=0) {
     countdownExe();
   }
-  if (parseInt(i.innerHTML)!=0) {
-    i.innerHTML = parseInt(i.innerHTML)-1;
-  }
+  i.innerHTML = parseInt(i.innerHTML)-1;
   countdownSec();
 }
 function countdownSec() {
