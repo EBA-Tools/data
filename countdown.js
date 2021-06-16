@@ -1,7 +1,7 @@
 function countdown() {
   var i = document.getElementById('counter');
   if (parseInt(i.innerHTML)<=0) {
-    location.href = 'index.html';
+    countdownExe();
   }
   if (parseInt(i.innerHTML)!=0) {
     i.innerHTML = parseInt(i.innerHTML)-1;
