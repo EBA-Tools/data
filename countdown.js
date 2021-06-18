@@ -1,6 +1,7 @@
 var i
 function countdown() {
   i = document.getElementById('counter');
+  alert(i);
   if (parseInt(i.innerHTML)==0) {
     countdownExe();
   }
