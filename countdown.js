@@ -6,7 +6,6 @@ function countdown() {
   if (parseInt(i.innerHTML)!=0) {
     i.innerHTML = parseInt(i.innerHTML)-1;
   }
-  countdownSec();
 }
 function countdownSec() {
   var x = document.getElementById('sec');
