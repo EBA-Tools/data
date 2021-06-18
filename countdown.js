@@ -1,5 +1,5 @@
-var i = document.getElementById('counter');
 function countdown() {
+  var i = document.getElementById('counter');
   if (parseInt(i.innerHTML)=0) {
     countdownExe();
   }
