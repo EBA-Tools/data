@@ -67,9 +67,9 @@ Call checkWS
 
 'Modifiable Startup Settings
 allowDebugMessages = False
-errHandle = False
+errHandle =True
 maxPlugin = 10
-loadPlugin = False
+loadPlugin = True
 debugMode = False
 title = setTitle("Debug")
 
