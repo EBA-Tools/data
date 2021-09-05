@@ -16,7 +16,7 @@ if (os.indexOf("Windows") != -1) {
     compatible = "EBA Command Center is compatible with your PC which runs Microsoft Windows 8."
     isComp = 2
   }
-  if (os.indexOf("Windows NT 7") != -1) {
+  if (os.indexOf("Windows NT 6.1") != -1) {
     compatible = "EBA Command Center is compatible with your PC which runs Microsoft Windows 7."
     isComp = 2
   }
