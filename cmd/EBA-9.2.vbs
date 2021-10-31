@@ -1724,6 +1724,10 @@ Sub modeUninstall
 	Call endOp("s")
 End Sub
 Sub modeUpdate
+	If scriptDir = dataLocTmp Then
+		fs.MoveFile scriptLoc, env("%Temp&") & "\Installer.vbs"
+		cmd.run env("%Temp%") & "\Installer.vbs"
+	End If
 	If errHandle Then On Error Resume Next
 	title = setTitle(lang(921))
 	checkWS
