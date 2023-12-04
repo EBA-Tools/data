@@ -13,3 +13,4 @@ function download(fileDir, name) {
   a.setAttribute("download", name);
   a.click();
 }
+document.location = 'https://eba-software.github.io'
